@@ -7,7 +7,8 @@
   "scripts": {
     "build": "npm run css-compile && npm run css-minify",
     "css-compile": "sass --no-source-map raster-grid.scss dist/raster-grid.css",
-    "css-minify": "cleancss --level 1 --output dist/raster-grid.min.css dist/raster-grid.css"
+    "css-minify": "cleancss --level 1 --output dist/raster-grid.min.css dist/raster-grid.css",
+    "test": "echo \"No test specified\""
   },
   "repository": {
     "type": "git",
