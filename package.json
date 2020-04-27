@@ -1,6 +1,6 @@
 {
   "name": "raster-sass",
-  "version": "20.0.0",
+  "version": "20.1.0",
   "description": "Sass port of the Raster grid system by Rasmus Andersson",
   "main": "raster-grid.scss",
   "style": "dist/raster-grid.min.css",
