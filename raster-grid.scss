@@ -84,11 +84,11 @@ $include-debug: true !default;
 
   @include make-cells();
 
-  @media (min-width: #{$small-breakpoint}) {
+  @media (max-width: #{$small-breakpoint}) {
     @include make-cells($small-suffix);
   }
 
-  @media (max-width: #{$large-breakpoint - 1}) {
+  @media (min-width: #{$large-breakpoint - 1}) {
     @include make-cells($large-suffix);
   }
 
