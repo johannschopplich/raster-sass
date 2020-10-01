@@ -164,7 +164,7 @@ r-grid > [span*=".."] {
 r-grid > [span=row] {
   grid-column: 1/-1;
 }
-@media (min-width: 600px) {
+@media (max-width: 600px) {
   r-grid[columns-s="1"] {
     --grid-tc: repeat(1, 1fr);
   }
@@ -320,7 +320,7 @@ r-grid > [span-s*=".."] {
     grid-column: 1/-1;
   }
 }
-@media (max-width: 1599px) {
+@media (min-width: 1599px) {
   r-grid[columns-l="1"] {
     --grid-tc: repeat(1, 1fr);
   }

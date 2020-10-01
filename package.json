@@ -1,13 +1,13 @@
 {
   "name": "raster-sass",
-  "version": "20.1.1",
+  "version": "20.2.0",
   "description": "Sass port of the Raster grid system by Rasmus Andersson",
   "main": "raster-grid.scss",
   "style": "dist/raster-grid.min.css",
   "scripts": {
-    "build": "npm run css-compile && npm run css-minify",
     "css-compile": "sass --no-source-map raster-grid.scss dist/raster-grid.css",
     "css-minify": "cleancss --output dist/raster-grid.min.css dist/raster-grid.css",
+    "build": "npm run css-compile && npm run css-minify",
     "test": "echo \"No test specified\""
   },
   "repository": {
@@ -27,6 +27,6 @@
   "homepage": "https://github.com/johannschopplich/raster-sass#readme",
   "devDependencies": {
     "clean-css-cli": "^4.3.0",
-    "sass": "^1.26.9"
+    "sass": "^1.26.11"
   }
 }
